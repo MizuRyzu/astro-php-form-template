@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContactForm from "../components/ContactForm.astro";
+import "../styles/global.css";
+---
+
+<BaseLayout title="Astro + PHP Form Template">
+  <div class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white py-12">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Astro + PHP Form Template
+        </h1>
+        <p class="text-xl md:text-2xl text-indigo-100">
+          Built with Astro, Tailwind CSS, and PHPMailer
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 py-12">
+      <div class="container mx-auto px-4">
+        <!-- Features -->
+        <div class="max-w-4xl mx-auto mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">
+            Features
+          </h2>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="text-indigo-600 text-4xl mb-4">⚡</div>
+              <h3 class="text-xl font-semibold mb-2">Fast & Modern</h3>
+              <p class="text-gray-600">
+                Built with Astro for blazing-fast performance
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="text-indigo-600 text-4xl mb-4">🎨</div>
+              <h3 class="text-xl font-semibold mb-2">Beautiful Design</h3>
+              <p class="text-gray-600">
+                Styled with Tailwind CSS for a modern look
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="text-indigo-600 text-4xl mb-4">📧</div>
+              <h3 class="text-xl font-semibold mb-2">Secure Forms</h3>
+              <p class="text-gray-600">
+                PHP backend with rate limiting & spam protection
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <ContactForm />
+
+        <!-- Instructions -->
+        <div class="max-w-2xl mx-auto mt-16">
+          <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+            <h3 class="text-xl font-bold text-blue-900 mb-4">
+              🚀 Getting Started
+            </h3>
+            <div class="space-y-2 text-blue-800">
+              <p>
+                <strong>Development:</strong>
+                <code class="bg-blue-100 px-2 py-1 rounded"
+                  >npm run dev:all</code>
+              </p>
+              <p>
+                <strong>Build:</strong>
+                <code class="bg-blue-100 px-2 py-1 rounded"
+                  >./prepare-deploy.ps1</code>
+              </p>
+              <p class="text-sm mt-4">
+                Don't forget to configure your <code
+                  class="bg-blue-100 px-2 py-1 rounded">.env</code
+                > file!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-400">
+          Astro + PHP Form Template &copy; {new Date().getFullYear()}
+        </p>
+      </div>
+    </footer>
+  </div>
+</BaseLayout>

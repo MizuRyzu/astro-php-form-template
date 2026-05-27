@@ -1,0 +1,13 @@
+{
+    "name": "astro-php-form/api",
+    "description": "PHP API for Astro contact forms with PHPMailer",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

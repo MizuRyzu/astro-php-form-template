@@ -1,0 +1,36 @@
+{
+  "name": "astro-php-form-template",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Astro + Tailwind + PHP contact form template with PHPMailer",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "dev:php": "php -S localhost:8080 -t api",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:php\" --names \"ASTRO,PHP\" --prefix-colors \"cyan,yellow\"",
+    "build": "astro build",
+    "build:prepare": "composer install --no-dev --optimize-autoloader",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "astro": "^6.2.2",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "astro",
+    "tailwind",
+    "php",
+    "contact-form",
+    "phpmailer",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT"
+}

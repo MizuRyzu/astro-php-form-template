@@ -2,6 +2,9 @@
 
 A modern, production-ready template for building websites with **Astro**, **Tailwind CSS**, and **PHP contact forms** powered by **PHPMailer**.
 
+> **Quick Start:** `npx degit your-username/astro-php-form-template my-project`  
+> 📖 [See full quick start guide](QUICKSTART.md) (Slovak) · [Detailed setup](FORM-SETUP.md)
+
 ## ✨ Features
 
 - ⚡ **Astro** - Fast, modern static site generator
@@ -51,12 +54,45 @@ brew install node php composer
 
 ## 🚀 Quick Start
 
-### 1. Clone or Download Template
+### 1. Create New Project from Template
+
+**Recommended: Using degit (fastest, no git history)**
+
+```powershell
+# Windows
+npx degit your-username/astro-php-form-template my-project
+cd my-project
+```
+
+```bash
+# Linux/Mac
+npx degit your-username/astro-php-form-template my-project
+cd my-project
+```
+
+**Alternative methods:**
+
+<details>
+<summary>Using GitHub CLI</summary>
+
+```powershell
+gh repo create my-project --template your-username/astro-php-form-template --public --clone
+cd my-project
+```
+
+</details>
+
+<details>
+<summary>Using git clone</summary>
 
 ```bash
 git clone https://github.com/your-username/astro-php-form-template.git my-project
 cd my-project
+rm -rf .git  # Remove git history
+git init     # Start fresh
 ```
+
+</details>
 
 ### 2. Run Setup Script
 

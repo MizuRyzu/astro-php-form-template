@@ -50,6 +50,22 @@ git push -u origin main
 
 Keď budete chcieť vytvoriť nový projekt:
 
+### ⚡ Cez degit (ODPORÚČANÉ - najrýchlejšie):
+
+```powershell
+# Stiahne template bez git histórie
+npx degit your-username/astro-php-form-template novy-projekt
+cd novy-projekt
+.\setup.ps1
+```
+
+**Výhody:**
+
+- ✅ Najrýchlejšie
+- ✅ Žiadna git história
+- ✅ Nie je potrebný GitHub účet pre stiahnutie
+- ✅ Funguje okamžite
+
 ### Cez GitHub Web:
 
 1. Prejdite na váš template repozitár
@@ -72,7 +88,7 @@ cd novy-projekt
 .\setup.ps1
 ```
 
-### Klasicky (bez template funkcie):
+### Klasicky (git clone):
 
 ```powershell
 git clone https://github.com/your-username/astro-php-form-template.git novy-projekt

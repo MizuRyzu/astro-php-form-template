@@ -2,7 +2,7 @@
 
 A modern, production-ready template for building websites with **Astro**, **Tailwind CSS**, and **PHP contact forms** powered by **PHPMailer**.
 
-> **Quick Start:** `npx degit your-username/astro-php-form-template my-project`  
+> **Quick Start:** `npx degit MizuRyzu/astro-php-form-template my-project`  
 > 📖 [See full quick start guide](QUICKSTART.md) (Slovak) · [Detailed setup](FORM-SETUP.md)
 
 ## ✨ Features
@@ -60,13 +60,13 @@ brew install node php composer
 
 ```powershell
 # Windows
-npx degit your-username/astro-php-form-template my-project
+npx degit MizuRyzu/astro-php-form-template my-project
 cd my-project
 ```
 
 ```bash
 # Linux/Mac
-npx degit your-username/astro-php-form-template my-project
+npx degit MizuRyzu/astro-php-form-template my-project
 cd my-project
 ```
 
@@ -76,7 +76,7 @@ cd my-project
 <summary>Using GitHub CLI</summary>
 
 ```powershell
-gh repo create my-project --template your-username/astro-php-form-template --public --clone
+gh repo create my-project --template MizuRyzu/astro-php-form-template --public --clone
 cd my-project
 ```
 
@@ -86,7 +86,7 @@ cd my-project
 <summary>Using git clone</summary>
 
 ```bash
-git clone https://github.com/your-username/astro-php-form-template.git my-project
+git clone https://github.com/MizuRyzu/astro-php-form-template.git my-project
 cd my-project
 rm -rf .git  # Remove git history
 git init     # Start fresh

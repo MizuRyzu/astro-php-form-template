@@ -27,8 +27,8 @@ git add .
 # Vytvorte prvý commit
 git commit -m "Initial commit: Astro + PHP form template"
 
-# Pridajte GitHub remote (NAHRAĎTE 'your-username' za vaše GitHub meno)
-git remote add origin https://github.com/your-username/astro-php-form-template.git
+# Pridajte GitHub remote
+git remote add origin https://github.com/MizuRyzu/astro-php-form-template.git
 
 # Nahrajte na GitHub
 git branch -M main
@@ -54,7 +54,7 @@ Keď budete chcieť vytvoriť nový projekt:
 
 ```powershell
 # Stiahne template bez git histórie
-npx degit your-username/astro-php-form-template novy-projekt
+npx degit MizuRyzu/astro-php-form-template novy-projekt
 cd novy-projekt
 .\setup.ps1
 ```
@@ -75,7 +75,7 @@ cd novy-projekt
 5. Naklonujte nový repozitár:
 
 ```powershell
-git clone https://github.com/your-username/novy-projekt.git
+git clone https://github.com/MizuRyzu/novy-projekt.git
 cd novy-projekt
 .\setup.ps1
 ```
@@ -83,7 +83,7 @@ cd novy-projekt
 ### Cez GitHub CLI:
 
 ```powershell
-gh repo create novy-projekt --template your-username/astro-php-form-template --public --clone
+gh repo create novy-projekt --template MizuRyzu/astro-php-form-template --public --clone
 cd novy-projekt
 .\setup.ps1
 ```
@@ -91,7 +91,7 @@ cd novy-projekt
 ### Klasicky (git clone):
 
 ```powershell
-git clone https://github.com/your-username/astro-php-form-template.git novy-projekt
+git clone https://github.com/MizuRyzu/astro-php-form-template.git novy-projekt
 cd novy-projekt
 rm -rf .git
 git init
@@ -111,15 +111,9 @@ git init
 
 ## 📝 Odporúčané úpravy pred nahratím
 
-### 1. Upravte README.md
+### 1. ✅ README.md - Už aktualizované!
 
-Zmeňte:
-
-```markdown
-git clone https://github.com/your-username/astro-php-form-template.git
-```
-
-Na váš skutočný GitHub username.
+Všetky `your-username` sú už nahradené za `MizuRyzu`.
 
 ### 2. Upravte package.json (voliteľné)
 

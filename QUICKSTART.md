@@ -5,11 +5,11 @@
 ### Krok 1: Stiahnutie template
 
 ```powershell
-npx degit your-username/astro-php-form-template moj-projekt
+npx degit MizuRyzu/astro-php-form-template moj-projekt
 cd moj-projekt
 ```
 
-**Poznámka:** Nahraďte `your-username` za vaše GitHub meno a `moj-projekt` za názov vášho projektu.
+**Poznámka:** `moj-projekt` zmeňte za názov vášho projektu.
 
 ### Krok 2: Automatická inštalácia
 
